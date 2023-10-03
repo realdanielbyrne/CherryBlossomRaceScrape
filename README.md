@@ -60,5 +60,5 @@ We limit our data to the Men's datasets. The variables available in our data wer
 
 In this paper we limited our investigation to the analysis of Age and Race. We first investigated the combined dataset from all years and tested the data against normality constraints. We then used multi-class ANOVA to determine if the overall groups mean varied from inter year means. We also tested this data for serial auto-correlation using the standard [Mann Whitney U][3] test to determine if there was evidence to suggest that this time series data is not independent of prior distributions. We also used density plots, box plots and qq plots to visualize the metrics we calculated.
 
-
- 
+## Results
+See [ipython notebook](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/cbreaddata.r)
