@@ -46,7 +46,16 @@ The scraping code r code is listed in cbreaddata.r.
 
 ### Investive Technique
 
-We limit our data to the Men's datasets. The variables available in our data were: * “Race”- the year of the race. * “Name”- name of participant * “Age”- age of participant * “Time”- total run time of participant * “Pace”- pace per mile * “PiS.TiS”- Position of participant in sex category/ total participants in sex category * “Division”- Division; M/F+ age range * “ PiD.TiD”- Position of participant in division/ total participants in division * “Hometown”- Hometown
+We limit our data to the Men's datasets. The variables available in our data were: 
+
+- `Race`: the year of the race.
+- `Name`: name of participant * “Age”- age of participant
+- `Time`: total run time of participant
+- `Pace`- pace per mile
+- `PiS.TiS`: Position of participant in sex category/ total participants in sex category
+- `Division`: Division; M/F+ age range
+- `PiD.TiD`: Position of participant in division/ total participants in division
+- `Hometown`: Participant's Hometown
 
 In this paper we limited our investigation to the analysis of Age and Race. We first investigated the combined dataset from all years and tested the data against normality constraints. We then used multi-class ANOVA to determine if the overall groups mean varied from inter year means. We also tested this data for serial auto-correlation using the standard [Mann Whitney U][3] test to determine if there was evidence to suggest that this time series data is not independent of prior distributions. We also used density plots, box plots and qq plots to visualize the metrics we calculated.
 
