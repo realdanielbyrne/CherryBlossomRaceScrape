@@ -1,6 +1,6 @@
 # CherryBlossomRaceScrape
 
-The code and the report in this repository scrapes a 5K run website for data.  It was an exercise in grad school on learning how to perform web scrapping in R.  jduranengineer was my collaborator on the project, and I'm sure I couldn't have done it without her.  For smoe reason we always worked well together.  I think she is one of those engineers that everyone just likes working for.
+The code and the report in this repository scrapes a 5K run website for data.  It was an exercise in grad school on learning how to perform web scrapeing in R.  jduranengineer was my collaborator on the project, and I'm sure I couldn't have done it without her.  For some reason we always worked well together.  I think she is one of those engineers that everyone just likes working for.  
 
 
 # Modeling Runner's Times in Cherry Blossom Race
