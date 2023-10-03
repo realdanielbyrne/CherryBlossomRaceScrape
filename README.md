@@ -30,7 +30,7 @@ We also improved upon the original code used to scrape the website, by implement
 
 ## Methods
 
-REST Based Mining Method
+### REST Based Mining Method
 
 We began by first investigating the data mining approach used by Nolan and Kaplan. It was an extensive and comprehensive approach that worked well for the race data as it was presented on the [Cherry Blossom Race Results website][2] at the time that this study was first conducted. However, since then, the source website has changed data repository format, and so we took this opportunity to explore new ways to mine the data that could possibly be extended across all years to include the original study range and the years competed since and also prior to 1999.
 
@@ -44,7 +44,7 @@ getResults(uri, year = 1999) - Loops over every available page of data for the s
 getAll() - Loops over the years 1999-2014 and saves each year's data in a csv file.
 The scraping code r code is listed in cbreaddata.r.
 
-Investigation Technique
+### Investive Technique
 
 We limit our data to the Men's datasets. The variables available in our data were: * “Race”- the year of the race. * “Name”- name of participant * “Age”- age of participant * “Time”- total run time of participant * “Pace”- pace per mile * “PiS.TiS”- Position of participant in sex category/ total participants in sex category * “Division”- Division; M/F+ age range * “ PiD.TiD”- Position of participant in division/ total participants in division * “Hometown”- Hometown
 
