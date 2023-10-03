@@ -43,7 +43,7 @@ The code to scrape the data in its newest form was easier to implement and thus 
 - `getResults(uri, year = 1999)` - Loops over every available page of data for the selected year.
 - `getAll()` - Loops over the years 1999-2014 and saves each year's data in a csv file.
 
-The scraping code r code is listed in [cbreaddata.r](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/Byrne_Duran_Hwk_2.ipynb).
+The scraping code r code is listed in [cbreaddata.r](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/cbreaddata.r).
 
 ### Investive Technique
 
@@ -61,4 +61,4 @@ We limit our data to the Men's datasets. The variables available in our data wer
 In this paper we limited our investigation to the analysis of Age and Race. We first investigated the combined dataset from all years and tested the data against normality constraints. We then used multi-class ANOVA to determine if the overall groups mean varied from inter year means. We also tested this data for serial auto-correlation using the standard [Mann Whitney U][3] test to determine if there was evidence to suggest that this time series data is not independent of prior distributions. We also used density plots, box plots and qq plots to visualize the metrics we calculated.
 
 ## Results
-See [ipython notebook](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/cbreaddata.r)
+See [ipython notebook](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/Byrne_Duran_Hwk_2.ipynb)
