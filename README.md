@@ -40,9 +40,10 @@ The mining approach we took was to use the first identify the HTML table present
 
 The code to scrape the data in its newest form was easier to implement and thus less error prone than the original. The code consists of 2 simple r functions, comprising less than 45 lines of code.
 
-getResults(uri, year = 1999) - Loops over every available page of data for the selected year.
-getAll() - Loops over the years 1999-2014 and saves each year's data in a csv file.
-The scraping code r code is listed in cbreaddata.r.
+- `getResults(uri, year = 1999)` - Loops over every available page of data for the selected year.
+- `getAll()` - Loops over the years 1999-2014 and saves each year's data in a csv file.
+
+The scraping code r code is listed in [cbreaddata.r](https://github.com/realdanielbyrne/CherryBlossomRaceScrape/blob/master/Proj%202%20Cherry%20Blossom/cbreaddata.r).
 
 ### Investive Technique
 
